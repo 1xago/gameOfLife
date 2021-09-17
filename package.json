@@ -1,0 +1,22 @@
+{
+  "name": "gameoflife",
+  "version": "1.0.0",
+  "main": "./src/main.js",
+  "scripts": {
+    "test": "jest tests/.*",
+    "test.debug": "jest --watchAll tests",
+    "test.coverage": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "creating game of life ",
+  "devDependencies": {
+    "@types/jest": "^27.0.1",
+    "jest": "^27.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/1xago/gameOfLife.git"
+  }
+}
